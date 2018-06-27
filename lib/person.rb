@@ -3,9 +3,7 @@ require 'pry'
 class Person
 
   attr_accessor :bank_account
-  attr_reader :happiness
-  attr_reader :hygiene
-  attr_reader :name
+  attr_reader :happiness :hygiene :name
 
   def initialize(name)
     @name = name
